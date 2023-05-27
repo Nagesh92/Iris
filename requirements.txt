@@ -1,0 +1,5 @@
+python == version 3.11.1,
+pandas == version 2.0.1,
+numpy == version 1.24.3,
+flask == version 2.3.2,
+sklearn == version 0.0.post5

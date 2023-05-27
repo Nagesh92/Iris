@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iris flower</title>
+</head>
+<body>
+    <center>
+    <h1>Iris flower prediction</h1>
+
+    <br>
+
+    <form action="{{url_for('home')}}" method="post">
+        <div>
+        <label for="SepalLengthCm">SepalLengthCm:</label>
+        <input type="text" name="SepalLengthCm" id="SepalLengthCm" placeholder="enter here"reuired>
+    </div>
+
+    <br>
+
+    <div>
+        <label for="SepalWidthCm">SepalWidthCm:</label>
+        <input type="text" name="SepalWidthCm" id="SepalWidthCm" placeholder="enter here"required>
+    </div>
+
+    <br>
+
+    <div>
+        <label for="PetalLengthCm">PetalLengthCm:</label>
+        <input type="text" name="PetalLengthCm" id="PetalLengthCm" placeholder="enter here"required>
+    </div>
+
+    <br>
+
+    <div>
+        <label for="PetalWidthCm">PetalWidthCm:</label>
+        <input type = "text" name="PetalWidthCm" id="PetalWidthCm" placeholder="enter here"required>
+    </div>
+
+    <br>
+
+    <div>
+        <button type="submit" class="btn btn-primary btn-block btn-large" >Predict</button>
+    </div>
+
+    <br>
+
+    </form>
+    
+</center>
+
+
+
+</body>
+</html>
